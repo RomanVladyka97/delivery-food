@@ -221,6 +221,14 @@ category {
   overflow: hidden;
   white-space: nowrap;
   max-width: 150px;
+  font-size: 18px;
+  line-height: 32px;
+
+
+
+/* Gray / gray-7 */
+
+color: #8C8C8C;
 }
 
 .price:after {
@@ -362,20 +370,20 @@ line-height: 32px;
   width: 39px;
   height: 32px;
   background: #FFFFFF;
-border: 1px solid #40A9FF;
-box-sizing: border-box;
-border-radius: 2px;
-font-weight: normal;
-font-size: 14px;
-line-height: 22px;
-color: #40A9FF;
+  border: 1px solid #40A9FF;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #40A9FF;
 }
 
 .counter {
   font-size: 16px;
-line-height: 24px;
-margin-left: 10px;
-margin-right: 10px;
+  line-height: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .modal-footer {
@@ -391,11 +399,11 @@ margin-right: 10px;
 
 .modal-pricetag {
   background: #262626;
-border-radius: 5px;
-color: #FFFFFF;
-padding: 15px 20px;
-font-size: 20px;
-line-height: 23px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  font-size: 20px;
+  line-height: 23px;
 }
 
 @media (max-width: 1366px) {
