@@ -7,13 +7,14 @@
     <title>Delivery food - доставка еды на дом</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css\animate.css" class="rel"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <a href="index.html" class="logo">
+            <a href="index.html" "logo animated fadeInRight delay-0.5s">
                 <img src="img\logo.svg" alt="logo" />
             </a>
             <input type="text" class="input input-address" placeholder="Адрес доставки">
@@ -45,7 +46,7 @@
                 </div>
             </section>
             <div class="cards">
-                <a href="restaurant.html" class="card">
+                <a href="restaurant.html" class="card wow fadeInUp" Data-wow-delay="0.2s">
                     <img src="img/image.jpg" alt="image" class="card-image">
                     <div class="card-text">
                         <div class="card-heading">
@@ -66,7 +67,7 @@
                 </a>
                 <!-- /.card -->
 
-                <a href="restaurant.html" class="card">
+                <a href="restaurant.html" class="card wow fadeInUp" Data-wow-delay="0.4s">
                     <img src="img/image1.jpg" alt="image" class="card-image">
                     <div class="card-text">
                         <div class="card-heading">
@@ -87,7 +88,7 @@
                 </a>
                 <!-- /.card -->
 
-                <a href="restaurant.html" class="card">
+                <a href="restaurant.html" class="card wow fadeInUp" Data-wow-delay="0.6s">
                     <img src="img/image2.jpg" alt="image" class="card-image">
                     <div class="card-text">
                         <div class="card-heading">
@@ -108,7 +109,7 @@
                 </a>
                 <!-- /.card -->
 
-                <a href="restaurant.html" class="card">
+                <a href="restaurant.html" class="card wow fadeInUp" Data-wow-delay="0.8s">
                     <img src="img/image3.jpg" alt="image" class="card-image">
                     <div class="card-text">
                         <div class="card-heading">
@@ -129,7 +130,7 @@
                 </a>
                 <!-- /.card -->
 
-                <a href="restaurant.html" class="card">
+                <a href="restaurant.html" class="card wow fadeInUp" Data-wow-delay="1s">
                     <img src="img/image4.jpg" alt="image" class="card-image">
                     <div class="card-text">
                         <div class="card-heading">
@@ -150,7 +151,7 @@
                 </a>
                 <!-- /.card -->
 
-                <a href="restaurant.html" class="card">
+                <a href="restaurant.html" class="card wow fadeInUp" Data-wow-delay="1.2s">
                     <img src="img/image5.jpg" alt="image" class="card-image">
                     <div class="card-text">
                         <div class="card-heading">
@@ -178,7 +179,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-block">
-                <img src="/img/logo.svg" alt="logo" class="logo footer-logo">
+                <img src="/img/logo.svg" alt="logo" class="logo footer-logo wow fadeInRight" Data-wow-delay="0.6s">
                 <nav class="footer-nav">
                     <a href="#" class="footer-link">Ресторанам</a>
                     <a href="#" class="footer-link">Курьерам</a>
@@ -193,6 +194,8 @@
             </div>
         </div>
     </footer>
+      <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
